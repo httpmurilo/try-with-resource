@@ -1,0 +1,13 @@
+CREATE TABLE sample.cliente (
+	id INT auto_increment NOT NULL,
+	nome varchar(100) NULL,
+	profissao varchar(100) NULL,
+	PRIMARY KEY (id)
+)
+
+
+insert into cliente values(1,'Artur', 'Motorista');
+insert into cliente values(2,'Mateus', 'Gerente');
+insert into cliente values(3,'Ana', 'Gerente');
+insert into cliente values(4,'Maria', 'Desenvolvedora');
+insert into cliente values(5,'Mateus', 'Analista de RH');
